@@ -17,17 +17,17 @@ import {SPHttpClient, SPHttpClientResponse} from '@microsoft/sp-http';
 
 export interface IRiskOwnerCommandSetProperties {
   // This is an example; replace with your own properties
-  sampleTextOne: string;
-  sampleTextTwo: string;
-  sampleTextthree: string;
-  sampleTextfour: string;
-  URL:string;
-  State:String;
-  StateOwner:String;
-  Token:string;
-  StateEMC:String;
-  StateRMOC:String;
-Status:String;
+      sampleTextOne: string;
+      sampleTextTwo: string;
+      sampleTextthree: string;
+      sampleTextfour: string;
+      URL:string;
+      State:String;
+      StateOwner:String;
+      Token:string;
+      StateEMC:String;
+      StateRMOC:String;
+      Status:String;
 
 }
 
