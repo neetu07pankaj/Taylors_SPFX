@@ -24,12 +24,10 @@ export interface IRiskOwnerCommandSetProperties {
   URL:string;
   State:String;
   StateOwner:String;
-  
   Token:string;
   StateEMC:String;
   StateRMOC:String;
-
-  Status:String;
+Status:String;
 
 }
 
