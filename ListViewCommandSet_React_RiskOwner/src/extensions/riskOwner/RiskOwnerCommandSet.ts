@@ -37,11 +37,6 @@ const LOG_SOURCE: string = 'RiskOwnerCommandSet';
 
 export default class RiskOwnerCommandSet extends BaseListViewCommandSet<IRiskOwnerCommandSetProperties> {
 
- 
-
-  //private static flowEndpoint: string = "https://prod-46.southeastasia.logic.azure.com/workflows/5840ebbe6bbe48508e67d9350433b6b2/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Wu6cY-GiZmJlfrC0zbcd9HHuhQKlE9-JQL7_9468VFk";
-
-
   public onInit(): Promise<void> {
   
   console.info('Start:');
