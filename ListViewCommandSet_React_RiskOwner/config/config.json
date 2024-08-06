@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "risk-owner-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/riskOwner/RiskOwnerCommandSet.js",
+          "manifest": "./src/extensions/riskOwner/RiskOwnerCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RiskOwnerCommandSetStrings": "lib/extensions/riskOwner/loc/{locale}.js"
+  }
+}

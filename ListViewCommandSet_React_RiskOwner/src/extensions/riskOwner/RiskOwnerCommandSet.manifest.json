@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "21dac9a2-7729-407a-bc04-a07cb4dafb36",
+  "alias": "RiskOwnerCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "items": {
+    "COMMAND_3": {
+      "title": { "default": "Risk Owner Users(Approve)" },
+      "type": "command",
+      "iconImageUrl": "https://taylorsedu.sharepoint.com/:i:/r/sites/RiskManagement-STG/SiteAssets/Approve.png?csf=1&web=1&e=oZnaj4"
+    },
+    "COMMAND_4": {
+      "title": { "default": "Risk Owner Users(Reject)" },
+      "type": "command",
+      "iconImageUrl": "https://taylorsedu.sharepoint.com/:i:/r/sites/RiskManagement-STG/SiteAssets/Reject.png?csf=1&web=1&e=tl0emT"
+    },
+    "COMMAND_5": {
+      "title": { "default": "Risk Director Users(Approve)" },
+      "type": "command",
+      "iconImageUrl": "https://taylorsedu.sharepoint.com/:i:/r/sites/RiskManagement-STG/SiteAssets/Approve.png?csf=1&web=1&e=oZnaj4"
+    },
+    "COMMAND_6": {
+      "title": { "default": "Risk Director Users(Reject)" },
+      "type": "command",
+      "iconImageUrl": "https://taylorsedu.sharepoint.com/:i:/r/sites/RiskManagement-STG/SiteAssets/Reject.png?csf=1&web=1&e=tl0emT"
+    },
+    "COMMAND_7": {
+      "title": { "default": "RMOC Users(Approve)" },
+      "type": "command",
+      "iconImageUrl": "https://taylorsedu.sharepoint.com/:i:/r/sites/RiskManagement-STG/SiteAssets/Approve.png?csf=1&web=1&e=oZnaj4"
+    },
+    "COMMAND_8": {
+      "title": { "default": "RMOC Users(Reject)" },
+      "type": "command",
+      "iconImageUrl": "https://taylorsedu.sharepoint.com/:i:/r/sites/RiskManagement-STG/SiteAssets/Reject.png?csf=1&web=1&e=tl0emT"
+    },
+    "COMMAND_9": {
+      "title": { "default": "EMC Users(Approve)" },
+      "type": "command",
+      "iconImageUrl": "https://taylorsedu.sharepoint.com/:i:/r/sites/RiskManagement-STG/SiteAssets/Approve.png?csf=1&web=1&e=oZnaj4"
+    },
+    "COMMAND_10": {
+      "title": { "default": "EMC Users(Reject)" },
+      "type": "command",
+      "iconImageUrl": "https://taylorsedu.sharepoint.com/:i:/r/sites/RiskManagement-STG/SiteAssets/Reject.png?csf=1&web=1&e=tl0emT"
+    }
+  }
+}

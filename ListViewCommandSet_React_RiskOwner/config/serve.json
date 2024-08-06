@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://taylorsedu.sharepoint.com/sites/RiskManagement-STG/Lists/RiskRegister/AllItems.aspx",
+      "customActions": {
+        "21dac9a2-7729-407a-bc04-a07cb4dafb36": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "riskOwner": {
+      "pageUrl": "https://taylorsedu.sharepoint.com/sites/RiskManagement-STG/Lists/RiskRegister/AllItems.aspx",
+      "customActions": {
+        "21dac9a2-7729-407a-bc04-a07cb4dafb36": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

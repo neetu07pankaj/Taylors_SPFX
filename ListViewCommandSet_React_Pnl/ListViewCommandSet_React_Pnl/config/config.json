@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pp-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/pp/PpCommandSet.js",
+          "manifest": "./src/extensions/pp/PpCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PpCommandSetStrings": "lib/extensions/pp/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
